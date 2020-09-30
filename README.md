@@ -1,2 +1,2 @@
-# api_example_restrserve
+# API Example restrserve
 An example of API using package RestRServe
