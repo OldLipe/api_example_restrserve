@@ -1,0 +1,43 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# An API example in R 
+
+This repo shows a simple example of how to create an API using [RestRserve](https://github.com/rexyai/RestRserve/) package.
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+## Getting started
+
+First of all, it is necessary install RestRserve package and others complementary 
+packages, in this way:
+
+```{r, eval=FALSE}
+  # package to create an API
+  install.packages("RestRserve")
+  
+  # complementary packages
+  install.packages(c("jsonlite", "dplyr", "tidyselect"))
+```
+
+
+After that, you can just execute the script via bash, just like that:
+
+```{bash, eval=FALSE}
+  Rscript app.R
+```
+
+## Contribute
+
+Just make a [fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) in this repo and send me a [Pull Request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). 
