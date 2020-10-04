@@ -4,7 +4,7 @@ library(jsonlite)
 library(dplyr)
 library(tidyselect)
 
-
+# Creating model function
 model_cluster_kmeans <- function(request, response) {
 
   dataset <- jsonlite::fromJSON(request$body)
